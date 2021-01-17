@@ -1,0 +1,429 @@
+
+/*************   PAGES CONTENT   *********************************/
+
+
+.content_title {
+	font-size: 70px;	
+	height: auto;
+	margin-top: 3%;
+	color: var(--black);
+	font-family: var(--italianno);
+	font-weight: 100;
+
+}
+
+
+.underline {
+	text-align: center;
+	opacity: 0.5;
+
+}
+.underline img{	
+	max-width: 300px;
+	margin-bottom: 5%;
+
+}
+
+
+
+.page .page-img {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+
+}
+
+.page .page-img img {
+	width: 40%;
+	height: 400px !important;
+	padding: 25px;
+}
+.page .page-text {
+	display: inline-block;
+	width: 70%;
+	font-family: var(--poppins);
+}
+
+
+
+.page .bottom-img img {
+
+	width: 65% !important;
+	height: 400px !important;
+}
+
+.page .page-text p {
+	font-size: 18px;
+	margin: 20px auto;
+}
+
+.page .page-text p:last-child {
+	margin-bottom: 50px;
+}
+
+.page ul {
+	list-style: none;
+	font-size: 18px;
+}
+
+
+
+.colored-bcg .page-text {
+	background-image: url('../images/colored-bcg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.colored-bcg .vaucer-img  img{
+	width: 40%;
+	height: 300px;
+	margin: 20px;
+}
+
+/***    Viewport less then or equal to 1026px   ***/
+@media screen and (max-width: 1026px) {
+	.page .page-img img {
+		height: 300px !important;
+
+	}
+
+
+	.colored-bcg .vaucer-img  img {
+		height: 250px !important;
+		margin: 15px;
+	}
+
+}
+
+/***    Viewport less then or equal to 768px   ***/
+@media screen and (max-width: 768px) {
+	.page .page-text p {
+		font-size: 14px;
+		margin: 15px auto;
+	}
+
+	.page .page-text ul {
+
+		font-size: 14px;
+	}
+
+	.page .page-text ul li {
+		padding: 5px;
+	}
+
+	.page .page-img img {
+		padding: 15px;
+		height: 250px !important;
+	}	
+
+	.page .bottom-img img {
+
+		width: 70% !important;
+		height: 250px !important;
+	}
+
+
+	.colored-bcg .vaucer-img  img {
+		height: 200px !important;
+		margin: 10px;
+	}
+
+
+}
+
+/***    Viewport less then or equal to 520px   ***/
+@media screen and (max-width: 520px) {
+
+	.page .page-img {
+
+		flex-direction: column;
+		
+		align-items: center;
+	}
+
+	.page .page-img img, .page .bottom-img img {
+
+		height: 200px !important;
+		width: 70% !important;
+	}
+
+	.colored-bcg .page-text {
+		width: 100%;
+	}
+
+
+	.colored-bcg .vaucer-img  img {
+		height: 150px !important;
+		margin: 5px;
+	}
+
+	.underline img{	
+	max-width: 200px;
+
+	}
+}
+
+
+
+/*************   PAGES CONTENT END  ******************************/
+
+
+
+/*************   GALERY.PHP PAGE *********************************/
+
+
+.gallery {
+	max-width: 1200px;
+	margin: 0 auto;
+
+}
+
+.gallery img {
+	box-sizing: border-box;
+	width: 25%;
+	max-height: 150px;
+	padding: 10px;
+	object-fit: cover;
+	cursor: pointer;
+}
+
+
+/* Show image */
+
+#Outer {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	background: rgba(0, 0, 0, 0.7);
+	/*background: rgba(172, 57, 172, 0.5);*/
+	/* Hide by default */
+	visibility: hidden;
+	opacity: 0;
+	transition: all ease 0.3s;
+
+}
+
+#Outer.show {
+	visibility: visible;
+	opacity: 1;
+	z-index: 99;
+
+}
+
+#Inner {
+	text-align: center;
+	position: relative; 
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+#Inner img {
+	max-width: 80vw;
+	max-height: 80vh;
+}
+
+/***    Viewport less then or equal to 850px   ***/
+@media screen and (max-width: 850px) {
+
+	.gallery img {
+		width: 33%;
+	}
+	
+}
+
+/***    Viewport less then or equal to 640px   ***/
+@media screen and (max-width: 640px) {
+
+	.gallery img {
+		width: 50%;
+	}
+	
+}
+
+/***    Viewport less then or equal to 340px   ***/
+@media screen and (max-width: 340px) {
+
+	.gallery img {
+		width: 100%;
+	}
+}
+
+
+
+
+
+
+
+
+/*************   GALERY.PHP PAGE END ******************************/
+
+
+
+/*************   PRICELIST.PHP PAGE *********************************/
+
+.content-pricelist {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+}
+	
+
+
+
+
+table {
+	justify-content: center;
+	width: 70%;
+	color: purple;
+	background: url(../images/background-main.jpg);
+	background-size: cover;
+	font-family: var(--poppins);
+	margin-bottom: 50px;
+
+}
+
+tr {
+	display: flex;
+	flex-direction: column;
+}
+
+th {
+	font-size: 26px;
+	letter-spacing: 1px;
+	font-family: var(--livvic);
+}
+
+
+td {
+
+	display: grid;
+	grid-template-columns: 2fr 1fr 1fr;
+	padding: 15px 0px;
+	border-bottom: 1px solid purple;
+	letter-spacing: 1px;
+	
+}
+
+td:hover {
+	color: var(--white) !important;
+	transition: all 0.5s ease;
+	background-color: #DB8BF4;
+
+}
+
+
+.three-columns td {
+	grid-template-columns: repeat(3, 1fr) !important;
+}
+
+
+/***    Viewport less then or equal to 680px   ***/
+@media screen and (max-width: 680px) {
+
+
+	table {
+		width: 100%;
+	}
+
+}
+
+/***    Viewport less then or equal to 430px   ***/
+@media screen and (max-width: 430px) {
+
+	.content-pricelist {
+		margin: 0px;
+	}
+
+	table {
+		width: 100%;
+	}
+
+
+}
+
+
+/*************   PRICELIST.PHP PAGE END  ******************************/
+
+
+
+/*************   KONTAK.PHP PAGE   *********************************/
+
+.content-contact {
+	display: flex;
+	flex-direction: column;
+
+}
+
+.contact-info {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin-bottom: 30px;
+}
+
+.contact-info .phone, .contact-info .mail, .contact-info .insta, .contact-info .address  {
+	padding: 20px 0px;
+	font-family: var(--poppins);
+	font-size: 20px;
+	letter-spacing: 1px;
+	
+}
+
+/*.contact-info .phone a, .contact-info .mail a, .contact-info .insta a, .contact-info .address a {*/
+	/*color: #82589F;*/
+
+/*}*/
+
+.contact-info a {
+	color: #82589F;
+}
+
+
+
+.contact-info a:hover {
+	transition: 0.5s ease;
+}
+.contact-info  a:after {
+  content: '';
+  display: block;
+  margin: auto;
+  height: 2px;
+  width: 0px;
+  background: transparent;
+  transition: width .5s ease-in-out, background-color .5s ease-in-out;
+  
+}
+.contact-info  a:hover:after {
+  width: 100%;
+  background: var(--purple);
+}
+
+.content-contact .map {
+	margin-bottom: 2%;
+}
+
+/***    Viewport less then or equal to 680px   ***/
+@media screen and (max-width: 680px) {
+
+
+	.contact-info  a {
+		font-size: 16px;
+	}
+
+	.contact-info .phone, .contact-info .mail, .contact-info .insta, .contact-info .address {
+		padding: 10px 0px;
+	}
+
+	.content-contact .map iframe {
+		height: 250px !important;
+	}
+
+}
+
+
+
+/*************   KONTAK.PHP PAGE ENF  ******************************/

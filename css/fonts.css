@@ -1,0 +1,21 @@
+/***  font-face rule  ****/
+
+@font-face {
+	font-family: Italianno;
+	src: url('../fonts/italianno/Italianno-Regular.ttf');
+}
+
+@font-face {
+	font-family: Poppins;
+	src: url('../fonts/poppins/Poppins-Regular.ttf');
+}
+
+@font-face {
+	font-family: Great Vibes;
+	src: url('../fonts/great_vibes/GreatVibes-Regular.ttf');
+}
+
+@font-face{  
+	font-family: Livvic;
+	src: url('../fonts/livvic/Livvic-Regular.ttf');
+}

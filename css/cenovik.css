@@ -1,0 +1,173 @@
+.content-cenovnik {
+	/*display: block;*/
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+}
+
+h1 {
+	height: auto;
+	font-size: 40px;	
+	margin: 80px 0px;
+}
+
+h2 {
+	color: purple;
+	text-align: center;
+	margin: 30px auto;
+	font-family: var(--poppins);
+	font-size: 32px;
+}
+table {
+	justify-content: center;
+	width: 70%;
+	color: purple;
+	/*background-image: linear-gradient(to right, #cd9cf2 0%, #f6f3ff 100%);*/
+	background: url(../images/purple-wavy-background_1035-8665.jpg);
+	background-size: cover;
+	/*background: transparent !important;*/
+	font-family: var(--poppins);
+	/*font-weight: bold;*/
+	margin-bottom: 50px;
+/*	border-radius: 100px;
+	overflow: hidden;*/
+	/*text-transform: uppercase;*/
+
+}
+
+tr {
+	display: flex;
+	flex-direction: column;
+}
+
+th {
+	font-size: 26px;
+	letter-spacing: 1px;
+	/*font-family: var(--lexend);*/
+	font-family: var(--livvic);
+}
+
+
+td {
+
+	display: grid;
+	/*grid-template-columns: repeat(3, 1fr);*/
+	grid-template-columns: 2fr 1fr 1fr;
+	padding: 15px 0px;
+	border-bottom: 1px solid purple;
+	letter-spacing: 1px;
+	/*font-weight: bolder;*/
+/*	text-align: left;
+	padding-left: 15px;*/
+	
+}
+
+td:hover {
+	color: #fff !important;
+	transition: all 0.5s ease;
+	/*background-color: #C166DE;*/
+	/*background-color: #DB95F4;*/
+	background-color: #E1AAF4;
+	/*color: #fff;*/
+}
+/*
+td:last-child {
+	border: none;
+}*/
+
+.tri-kolone td {
+	grid-template-columns: repeat(3, 1fr) !important;
+}
+
+/*th#sub-heading {*/
+	/*padding-left:  180px;*/
+	/*font-size: 18px !important;*/
+	/*text-align: left;*/
+	/*font-weight: bolder;*/
+	/*color: red;*/
+/*}*/
+
+
+/*.drugi td{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	padding: 15px 0px;
+	text-align: center;
+	
+}*/
+
+/*.tri-kolone {
+	display: flex;
+	flex-direction: column;
+}
+
+.tri-kolone th {
+	font-size: 26px;
+}
+
+.tri-kolone td{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	padding: 15px 0px;
+	border-bottom: 1px solid purple;
+	letter-spacing: 1px;
+	
+}
+
+.tri-kolone td:last-child {
+
+	border-bottom: none;
+}
+
+.dve-kolone {
+	display: flex;
+	flex-direction: column;
+
+}
+
+.dve-kolone th {
+	font-size: 26px;
+}
+
+.dve-kolone td{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	 
+	padding: 15px 0px;
+	border-bottom: 1px solid purple;
+	
+}
+
+
+
+.dve-kolone td:last-child {
+
+	border-bottom: none;
+}
+*/
+
+
+
+
+
+@media screen and (max-width: 680px) {
+
+
+	table {
+		width: 100%;
+	}
+
+}
+@media screen and (max-width: 430px) {
+
+	.content-cenovnik {
+		margin: 0px;
+	}
+
+	table {
+		width: 100%;
+	}
+
+
+}
