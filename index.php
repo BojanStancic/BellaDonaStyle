@@ -3,7 +3,7 @@
 
 include ('includes/functions.php');
 
-redirect('pages/pocetna.php');
+redirect('pages/pocetna.php'); 
 
  ?>
 
