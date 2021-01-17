@@ -139,7 +139,6 @@ header .call  a:after {
 }
 header .call  a:hover:after {
   width: 100%;
-  /*background: #B644DB;*/
   background: var(--purple);
 }
 
@@ -329,7 +328,6 @@ nav a {
 }
 
 .collapse {
-	/*height: 420px;*/
 	height: 63vh;
 	width: 100%;
 	z-index: 1;
@@ -375,7 +373,6 @@ nav a {
 .front-message {
 	position: absolute;
 	width: 40%;
-	/*bottom: 25%;*/
 	top: 80%;
 	left: 15%;
 	font-family: var(--livvic); 
@@ -701,7 +698,6 @@ footer .rights a {
 	.front-message {
 		position: absolute;
 		width: 50%;
-		/*bottom: 35%;*/
 		top: 60%;
 		left: 10%;
 		font-size: 18px;
@@ -730,7 +726,7 @@ footer .rights a {
 	}
 
 	.nav-links{
-		width: 100%; /*proveriti da li ostaviti ovoako*/
+		width: 100%; 
 	}
 	.nav-links li{
 		width: 100%;
@@ -873,7 +869,6 @@ footer .rights a {
 
 	.front-message {
 		
-		/*bottom: 30%;*/
 		top: 60%;
 		left: 1%;
 		font-size: 16px;
@@ -902,12 +897,6 @@ footer .rights a {
 		padding: 0px;
 	}
 
-	body .nav-sticky {
-
-		/*width: 99%;*/
-		/*position: fixed !important;*/
-
-	}
 
 
 	.cards-container .img-container {

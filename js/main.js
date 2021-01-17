@@ -31,45 +31,11 @@ var gallery = {
 		front.appendChild(clone);
 		back.classList.add("show");
 
-		// clone.onload = function() {
-
-		// 	let newNextBtn = document.createElement('a');
-			// newNextBtn.innerHTML = '<i class="fas fa-chevron-right"></i>';  /* OTJOMENTARISATI SVE DO -- Moze i oako-- ako se nastavja ovaj nacin*/
-		// 	front.appendChild(newNextBtn);
-		// 	newNextBtn.setAttribute('class', 'img-btn-next');
-		// 	newNextBtn.setAttribute('onclick', 'changeImg(1)');
-
-		// 	let newPrevBtn = document.createElement('a');
-		// 	newPrevBtn.innerHTML = '<i class="fas fa-chevron-left"></i>';
-		// 	front.appendChild(newPrevBtn);
-		// 	newPrevBtn.setAttribute('class', 'img-btn-prev');
-		// 	newPrevBtn.setAttribute('onclick', 'changeImg(0)');
-
-
-
-		// }
+		
 	}
 };
 
-// function closeImg() {
-// 	document.querySelector('.img-btn-next').remove();
-// 	document.querySelector('.img-btn-prev').remove();
-// }
 
-// var next = document.querySelector('.img-btn-prev');  // ne radi, samo za probu uradjeno
-// next.onclick = () => {
-	 
-// 	next.classList.toggle("bravo");
-
-// }
-
-
-// Moze i ovako :
-// toggleBurger.addEventListener('click', () => {  
-// 	toggleBurger.classList.toggle("rotate");
-// 	nav.classList.toggle("collapse");
-
-// });
 
 window.onscroll = function() {
 
