@@ -1,6 +1,6 @@
 
 <?php 
-	$title = 'Bella Donna Style';
+	$title = 'Bella Donna Style | Kozmeticki salon | Zarkovo';
 	// $content_title = '';
 
 	include ('../includes/head.php');
@@ -63,7 +63,7 @@
 					<div class="img-container" data-aos="zoom-in" data-aos-delay="500">
 						<a href="../pages/nega_ruku_nogu.php">
 							<div class="img">
-								<img src="../images/front-nega_ruku_nogu.png" alt="Nega ruku i nogu">
+								<img src="../images/front-nega_ruku_nogu.jpg" alt="Nega ruku i nogu">
 							</div>
 							<div>
 								<p>Nega Ruku i Nogu</p>
@@ -85,7 +85,7 @@
 					<div class="img-container" data-aos="fade-right" data-aos-delay="300">
 						<a href="../pages/depilacija_epilacija.php">
 							<div class="img">
-								<img src="../images/front-depilacija.png" alt="Depilacija">
+								<img src="../images/front-depilacija.jpg" alt="Depilacija">
 							</div>
 							<div>
 								<p>Depilacija</p>
@@ -96,7 +96,7 @@
 					<div class="img-container" data-aos="zoom-in" data-aos-delay="500">
 						<a href="../pages/obrve.php">
 							<div class="img">
-								<img src="../images/front-obrve.png" alt="Obrve">
+								<img src="../images/front-obrve.jpg" alt="Obrve">
 							</div>
 							<div>
 								<p>Iscrtavanje Obrva</p>
@@ -108,7 +108,7 @@
 					<div class="img-container" data-aos="fade-left" data-aos-delay="300">
 						<a href="../pages/profesionalno_sminkanje.php">
 							<div class="img">
-								<img src="../images/front-sminka.jpeg" alt="Sminka">
+								<img src="../images/front-sminka.jpg" alt="Sminka">
 							</div>
 							<div>
 								<p>Profesionalno Šminkanje</p>

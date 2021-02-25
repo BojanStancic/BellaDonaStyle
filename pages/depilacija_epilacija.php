@@ -1,6 +1,6 @@
 
 <?php 
-	$title = 'Depilacija / Epilacija';
+	$title = 'Depilacija - Bella Donna Style | Kozmeticki salon | Zarkovo';
 	$content_title = 'Depilacija';
 
 	include ('../includes/head.php');

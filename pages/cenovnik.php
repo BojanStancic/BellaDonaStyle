@@ -1,6 +1,6 @@
 
 <?php 
-	$title = 'Cenovnik';
+	$title = 'Cenovnik - Bella Donna Style | Kozmeticki salon | Zarkovo';
 	$content_title = 'Cenovnik';
 
 	include ('../includes/head.php');
@@ -78,6 +78,14 @@
 		 			
 		 			<td>PARAFINSKO PAKOVANJE RUKU<span></span>  300 rsd</td>
 		 			<td>PARAFINSKO PAKOVANJE NOGU<span></span>  500 rsd</td>
+		
+
+		 		</tr>
+
+		 		<tr class="two-columns">
+		 			<th>VAKUSLIM 48</th>
+		 			
+		 			<td>JEDAN TRETMAN<span></span>  1500 rsd</td>
 		
 
 		 		</tr>

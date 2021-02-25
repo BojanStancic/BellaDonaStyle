@@ -1,6 +1,6 @@
 
 <?php 
-	$title = 'Nega Ruku i Nogu';
+	$title = 'Nega Ruku i Nogu - Bella Donna Style | Kozmeticki salon | Zarkovo';
 	$content_title = 'Nega Ruku i Nogu';
 
 	include ('../includes/head.php');

@@ -4,7 +4,7 @@
 		<footer >
 			<div class="footer-container" >
 				<div class="footer-logo" data-aos="flip-right" data-aos-delay="300">
-					<a href="../index.php"><img src="../images/Bella Dona Style BlackLogo.png" alt="LogoBlack"></a>
+					<a href="../index.php"><img src="../images/Bella-Dona-Style-BlackLogo.png" alt="LogoBlack"></a>
 				</div>
 
 				<div class="footer-menu" data-aos="fade-down" data-aos-delay="300">
@@ -13,7 +13,7 @@
 						<li><a href="../index.php">Početna</a></li>
 						<li><a href="../index.php#cont">Usluge</a></li>
 						<li><a href="../pages/galery.php">Galerija</a></li>
-						<li><a href="../pages/cenovnik.php">Ceovnik</a></li>
+						<li><a href="../pages/cenovnik.php">Cenovnik</a></li>
 						<li><a href="../pages/akcije.php">Akcije</a></li>
 						<li><a href="../pages/poklon_vauceri.php">Poklon Vučeri</a></li>
 						<li><a href="../pages/kontakt.php">Kontakt</a></li>
@@ -23,18 +23,19 @@
 				<div class="footer-contact" data-aos="flip-left" data-aos-delay="300">
 
 					<h3>Kontaktirajte nas</h3>
-					<a href="tel:+381643599229"><i class="fas fa-phone"></i> &nbsp;064/3599229</a>
-					<a href="mailto:isidora.joksovic99@gmail.com"><i class="fas fa-envelope"></i> &nbsp;belladonna.style@gmail.com</a>
+					<a href="tel:+381637037941"><i class="fas fa-phone"></i> &nbsp;063/7037941</a>
+					<a href="mailto:info@belladonnastyle.rs"><i class="fas fa-envelope"></i> &nbsp;info@belladonnastyle.rs</a>
 					<a href="https://www.instagram.com/belladonna_style/" target="_blank" ><i class="fab fa-instagram fa-1x"></i> &nbsp;belladonna_style</a>
 
 					<h3 id="footer-address">Adresa</h3>
-						<a href="https://goo.gl/maps/WN5epWs6ZYKbHwwE8" target="_blank"><i class="fas fa-map-marker-alt"></i> &nbsp;Trgovačka 30B, Žarkovo</a>
+						<a href="https://goo.gl/maps/PLDXtVE4iUwK9a1C7" target="_blank"><i class="fas fa-map-marker-alt"></i> &nbsp;Trgovačka 30B, Žarkovo</a>
+						
 				</div>
 			</div>
 			
 			<div class="rights" >
 				<h4>
-					Copyright &copy;2020 All rights reserved <a href="../index.php">Bella Donna Style</a> | made by <i>Kenzo</i>
+					Copyright &copy;2020 All rights reserved <a href="../index.php">Bella Donna Style</a>
 				</h4>
 			</div>
 		</footer>

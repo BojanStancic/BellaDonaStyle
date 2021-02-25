@@ -1,6 +1,6 @@
 
 <?php 
-	$title = 'Poklon Vaučeri';
+	$title = 'Poklon Vaučeri - Bella Donna Style | Kozmeticki salon | Zarkovo';
 	$content_title = 'Poklon Vaučeri';
 
 	include ('../includes/head.php');

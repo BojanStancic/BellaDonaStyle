@@ -1,6 +1,6 @@
 
 <?php 
-	$title = 'Akcije';
+	$title = 'Akcije - Bella Donna Style | Kozmetički Salon | Žarkovo';
 	$content_title = 'Akcije';
 
 	include ('../includes/head.php');

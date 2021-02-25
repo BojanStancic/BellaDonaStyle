@@ -1,6 +1,6 @@
 
 <?php 
-	$title = 'Trepavice';
+	$title = 'Trepavice - Bella Donna Style | Kozmeticki salon | Zarkovo';
 	$content_title = 'Trepavice';
 
 	include ('../includes/head.php');

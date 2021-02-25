@@ -1,6 +1,6 @@
 
 <?php 
-	$title = 'Kontakt';
+	$title = 'Kontakt - Bella Donna Style | Kozmeticki salon | Zarkovo';
 	$content_title = 'Kontaktirajte nas';
 
 	include ('../includes/head.php');
@@ -21,11 +21,11 @@
 	 		<div class="contact-info">
 
 	 			<div class="phone">
-	 				<a href="tel:+381643599229"><i class="fas fa-phone"></i> &nbsp;064/3599229</a>
+	 				<a href="tel:+381637037941"><i class="fas fa-phone"></i> &nbsp;063/7037941</a>
 	 			</div>
 
 	 			<div class="mail">
-	 				<a href="mailto:isidora.joksovic99@gmail.com"><i class="fas fa-envelope"></i> &nbsp;belladonna.style@gmail.com</a>
+	 				<a href="mailto:info@belladonnastyle.rs"><i class="fas fa-envelope"></i> &nbsp;info@belladonnastyle.rs</a>
 	 			</div>
 
 	 			<div class="insta">
@@ -33,7 +33,7 @@
 				</div>
 
 	 			<div class="address">
-	 				<a href="https://goo.gl/maps/WN5epWs6ZYKbHwwE8" target="_blank"><i class="fas fa-map-marker-alt"></i> &nbsp;Trgovačka 30B, Žarkovo</a>
+	 				<a href="https://goo.gl/maps/PLDXtVE4iUwK9a1C7" target="_blank" rel="noopener"><i class="fas fa-map-marker-alt"></i> &nbsp;Trgovačka 30B, Žarkovo</a>
 	 			</div>
 
 	 		</div>
@@ -41,7 +41,7 @@
 
 
 		 	<div class="map">
-				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2833.0547868260287!2d20.412765315496515!3d44.75929737909894!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a71df380b36fd%3A0xef998f8e618ddfc9!2z0KLRgNCz0L7QstCw0YfQutCwIDMwYiwg0JHQtdC-0LPRgNCw0LQ!5e0!3m2!1ssr!2srs!4v1607006476266!5m2!1ssr!2srs" width="70%" height="400px;" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2833.0580719960926!2d20.41258611549645!3d44.75923037909883!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a71595a9e5b83%3A0xca95fc8edd5b0032!2sKozmeti%C4%8Dki%20salon%20Bella%20Donna%20Style!5e0!3m2!1ssr!2srs!4v1612276580245!5m2!1ssr!2srs" width="70%" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 			</div>
 
 

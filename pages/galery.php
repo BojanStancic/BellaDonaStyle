@@ -1,17 +1,18 @@
 
 <?php 
-	$dir = __DIR__ . DIRECTORY_SEPARATOR . "../galerija" . DIRECTORY_SEPARATOR ;
-
-	// var_dump($dir);
-	$images = glob($dir . "*.{JPG,png,jpg,jpeg,gif,bmp,webp,PNG}", GLOB_BRACE);
-	// var_dump($images);
-
-	$title = 'Galerija';
+	$title = 'Galerija - Bella Donna Style | Kozmeticki salon | Zarkovo';
 	$content_title = 'Galerija';
-
+	
 	include ('../includes/head.php');
 	include ('../includes/main_header.php');
 	include ('../includes/navigation.php');
+
+
+	$dir = __DIR__ . DIRECTORY_SEPARATOR . "../galerija" . DIRECTORY_SEPARATOR ;
+
+	$images = glob($dir . "*.{JPG,png,jpg,jpeg,gif,bmp,webp,PNG}", GLOB_BRACE);
+
+
 	
 
 

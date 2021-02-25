@@ -1,6 +1,6 @@
 
 <?php 
-	$title = 'O Nama';
+	$title = 'O Nama - Bella Donna Style | Kozmeticki salon | Zarkovo';
 	$content_title = 'O Nama';
 
 	include ('../includes/head.php');

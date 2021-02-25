@@ -18,6 +18,8 @@ drop.onclick = () => {
 
 }
 
+
+// View image in gallery
 var gallery = {
 	hide : function () {
 		document.getElementById("Outer").classList.remove("show");
@@ -36,7 +38,7 @@ var gallery = {
 };
 
 
-
+// Show muve up button 
 window.onscroll = function() {
 
 

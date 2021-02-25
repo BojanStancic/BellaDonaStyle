@@ -1,6 +1,6 @@
 
 <?php 
-	$title = 'Profesionalno Šminkanje';
+	$title = 'Profesionalno Šminkanje - Bella Donna Style | Kozmeticki salon | Zarkovo';
 	$content_title = 'Profesionalno Šminkanje';
 
 	include ('../includes/head.php');
